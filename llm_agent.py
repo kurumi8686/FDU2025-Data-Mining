@@ -4,12 +4,12 @@ import requests
 from openai import OpenAI
 
 # --- 付费API配置 ---
-PAID_API_KEY = "sk-PZvA0bsr6L2dLo6iC804Cc276c3c4dF5Ba5eAaE92a4e9106"
+PAID_API_KEY = "key"
 PAID_API_ENDPOINT_URL = "https://api.vveai.com/v1/chat/completions"
 DEFAULT_PAID_MODEL = "gpt-4o"
 
 # --- 免费API配置 ---
-DEEPSEEK_API_KEY = "sk-7e98c693b86442d3a04b78cb2df4709f"
+DEEPSEEK_API_KEY = "key"
 DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-chat"
 
